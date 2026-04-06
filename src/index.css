@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* El fondo oscuro "mas chill para el portafolio" */
+body {
+  @apply bg-slate-900 text-white;
+}
