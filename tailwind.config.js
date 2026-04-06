@@ -7,12 +7,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                // Aquí añadimos el color lila que te gusta para tu portafolio
-                lila: {
-                    400: '#a78bfa',
-                    500: '#8b5cf6',
-                    600: '#7c3aed',
-                }
+                // Aquí podrías añadir otros colores personalizados si los necesitas en el futuro
             }
         },
     },

@@ -8,7 +8,7 @@ import Experience from "./components/sections/Experience";
 function App() {
   return (
     // bg-slate-900 es el fondo oscuro profundo que te gustó
-    <div className="bg-slate-900 min-h-screen text-slate-200 selection:bg-lila-500/30">
+    <div className="bg-slate-900 min-h-screen text-slate-200 selection:bg-sky-500/30">
       <Navbar />
 
       <main className="max-w-5xl mx-auto px-6">

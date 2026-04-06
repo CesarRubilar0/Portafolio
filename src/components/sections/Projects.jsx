@@ -36,24 +36,24 @@ export default function Projects() {
         <section id="projects" className="py-24">
             <div className="flex items-center gap-4 mb-12">
                 <h2 className="text-3xl font-bold text-white tracking-tight">Proyectos</h2>
-                <div className="h-[1px] flex-1 bg-lila-500/20"></div>
+                <div className="h-[1px] flex-1 bg-sky-500/20"></div>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
                 {projects.map((p, i) => (
-                    <div key={i} className="group p-8 bg-slate-800/20 rounded-3xl border border-slate-700/50 hover:border-lila-500/40 transition-all duration-300 backdrop-blur-sm shadow-xl shadow-black/20">
+                    <div key={i} className="group p-8 bg-slate-800/20 rounded-3xl border border-slate-700/50 hover:border-sky-500/40 transition-all duration-300 backdrop-blur-sm shadow-xl shadow-black/20">
                         <div className="flex justify-between items-start mb-4">
-                            <span className="text-[10px] font-mono text-lila-400 uppercase tracking-[0.2em] bg-lila-500/10 px-3 py-1 rounded-full border border-lila-500/20">
+                            <span className="text-[10px] font-mono text-sky-400 uppercase tracking-[0.2em] bg-sky-500/10 px-3 py-1 rounded-full border border-sky-500/20">
                                 {p.type}
                             </span>
                             <div className="flex gap-4 text-slate-500">
-                                <a href={p.link} target="_blank" rel="noopener noreferrer" className="hover:text-lila-400 transition-colors">
+                                <a href={p.link} target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">
                                     <Terminal size={20} />
                                 </a>
                             </div>
                         </div>
 
-                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-lila-500 transition-colors tracking-tight">
+                        <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-sky-500 transition-colors tracking-tight">
                             {p.title}
                         </h3>
 
@@ -77,7 +77,7 @@ export default function Projects() {
                     href="https://github.com/CesarRubilar0"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-400 hover:text-lila-400 font-mono text-sm transition-all"
+                    className="text-slate-400 hover:text-sky-400 font-mono text-sm transition-all"
                 >
                     _ ver más en GitHub
                 </a>

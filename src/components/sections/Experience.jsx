@@ -9,7 +9,7 @@ export default function Experience() {
             {/* Columna de Experiencia */}
             <div>
                 <div className="flex items-center gap-3 mb-10">
-                    <Briefcase className="text-lila-500" size={24} />
+                    <Briefcase className="text-sky-400" size={24} />
                     <h2 className="text-2xl font-bold text-white">Experiencia</h2>
                 </div>
 
@@ -21,8 +21,8 @@ export default function Experience() {
                             whileInView={{ opacity: 1, x: 0 }}
                             className="relative pl-8"
                         >
-                            <div className="absolute w-3 h-3 bg-lila-500 rounded-full -left-[6.5px] top-1.5 shadow-[0_0_10px_rgba(139,92,246,0.5)]" />
-                            <span className="text-xs font-mono text-lila-400 uppercase tracking-wider">{item.period}</span>
+                            <div className="absolute w-3 h-3 bg-sky-500 rounded-full -left-[6.5px] top-1.5 shadow-[0_0_10px_rgba(56,189,248,0.5)]" />
+                            <span className="text-xs font-mono text-sky-400 uppercase tracking-wider">{item.period}</span>
                             <h3 className="text-lg font-bold text-slate-200 mt-1">{item.role}</h3>
                             <p className="text-sm text-slate-500 mb-3">{item.company}</p>
                             <p className="text-sm text-slate-400 leading-relaxed italic">"{item.description}"</p>
@@ -34,7 +34,7 @@ export default function Experience() {
             {/* Columna de Formación */}
             <div>
                 <div className="flex items-center gap-3 mb-10">
-                    <GraduationCap className="text-lila-500" size={24} />
+                    <GraduationCap className="text-sky-400" size={24} />
                     <h2 className="text-2xl font-bold text-white">Formación</h2>
                 </div>
 
@@ -50,7 +50,7 @@ export default function Experience() {
                             <div className="absolute w-3 h-3 bg-slate-700 rounded-full -left-[6.5px] top-1.5" />
                             <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">{item.period}</span>
                             <h3 className="text-lg font-bold text-slate-200 mt-1">{item.degree}</h3>
-                            <p className="text-sm text-lila-400/80">{item.institution}</p>
+                            <p className="text-sm text-sky-400/80">{item.institution}</p>
                         </motion.div>
                     ))}
                 </div>
