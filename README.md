@@ -16,6 +16,7 @@ Este sistema no fue concebido solo como una landing page estática, sino como un
 * **Arquitectura Decoupled:** La interfaz es agnóstica al contenido; los componentes se renderizan dinámicamente mapeando objetos de datos.
 * **Optimización de Performance:** Uso de Lazy Loading y manejo eficiente de estados para asegurar una carga inicial menor a 2 segundos.
 * **Enfoque en Normativa:** Integración de principios de orden y seguridad derivados de mi experiencia en certificación eléctrica y prevención.
+* **Dynamic Code Splitting:** Implementación de React.lazy y Suspense para la carga diferida de secciones pesadas (Projects/Experience), reduciendo el tamaño del bundle inicial y optimizando el rendimiento en conexiones móviles.
 
 ## 🛠️ Stack Tecnológico
 
