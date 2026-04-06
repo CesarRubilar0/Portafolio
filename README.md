@@ -4,7 +4,7 @@
 
 Portafolio profesional desarrollado con **React**, **Tailwind CSS** y **Framer Motion**. Diseñado para proyectar habilidades, proyectos y trayectoria como Analista Programador mediante una arquitectura limpia y componentes modulares. El sitio presenta una interfaz moderna, responsiva y optimizada, enfocada en ofrecer una excelente experiencia de usuario y un código eficiente.
 
-🔗 [Ver en vivo →](https:// - aqui va el enlace de deploy)
+🔗 [Ver en vivo →](https://cesar-rubilar.vercel.app/)
 
 ---
 
