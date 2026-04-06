@@ -105,4 +105,4 @@ Durante mi desempeño en **Antigravity**, lideré la implementación de módulos
 
 ## 📩 Contacto
 
-[LinkedIn](https://www.linkedin.com/in/tu-perfil) · [GitHub] (https://github.com/CesarRubilar0) · [Email](mailto:tu-email@ejemplo.com)
+[LinkedIn](https://www.linkedin.com/in/cesar-andres-rubilar-sanhueza-4623b221b) · [GitHub](https://github.com/CesarRubilar0) · [cesarrubilar0@gmail.com](mailto:cesarrubilar0@gmail.com)
