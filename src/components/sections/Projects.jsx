@@ -30,6 +30,22 @@ export default function Projects() {
             link: "https://github.com/CesarRubilar0/Agendabarber",
             type: "Web"
         }
+        ,
+        {
+            title: "Clingo.cl",
+            description: "Plataforma integral de gestión médica y administrativa para centros de salud. Incluye agenda médica electrónica, ficha clínica digital, integración de pagos y un sistema avanzado de agendamiento.",
+            stack: ["React 19", "Vite 7", "TailwindCSS 4", "React Query", "Node.js 18+", "Express.js", "Knex.js", "PostgreSQL", "JWT", "MercadoPago", "Google OAuth 2.0", "API de calendario"],
+            link: "https://clingo.cl/",
+            type: "Web"
+        }
+        ,
+        {
+            title: "Acceso360.cl",
+            description: "Plataforma integral de gestión de accesos y seguridad para condominios y recintos corporativos. Incluye control de visitas, gestión de estacionamientos, reserva de áreas comunes y un sistema avanzado de roles (RBAC).",
+            stack: ["React", "Node.js", "Express", "PostgreSQL", "TailwindCSS"],
+            link: "https://acceso360.cl/",
+            type: "Full-stack"
+        }
     ];
 
     return (

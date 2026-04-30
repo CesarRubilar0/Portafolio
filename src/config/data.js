@@ -65,6 +65,20 @@ export const projects = [
         description: "Herramienta de productividad orientada a la gestión de tareas y lógica de automatización.",
         stack: ["Python", "PyQt5"],
         github: "https://github.com/CesarRubilar0/Organizador-diario"
+    },
+    {
+        title: "Acceso360",
+        description: "Plataforma integral de gestión de accesos y seguridad para condominios y recintos corporativos. Incluye control de visitas, gestión de estacionamientos, reserva de áreas comunes y un sistema avanzado de roles (RBAC).",
+        stack: ["React", "Node.js", "Express", "PostgreSQL", "TailwindCSS"],
+        link: "#",
+        type: "Full-stack"
+    },
+    {
+        title: "Clingo.cl",
+        description: "Plataforma integral de gestión médica y administrativa para centros de salud. Incluye agenda médica electrónica, ficha clínica digital, integración de pagos y un sistema avanzado de agendamiento.",
+        stack: ["React 19", "Vite 7", "TailwindCSS 4", "React Query", "Node.js 18+", "Express.js", "Knex.js", "PostgreSQL", "JWT", "MercadoPago", "Google OAuth 2.0", "API de calendario"],
+        link: "https://clingo.cl/",
+        type: "Web"
     }
 ];
 
