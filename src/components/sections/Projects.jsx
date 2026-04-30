@@ -1,4 +1,4 @@
-import { ExternalLink, Code2, Terminal } from "lucide-react";
+import { ExternalLink, Code2, Terminal, Wrench } from "lucide-react";
 
 export default function Projects() {
     const projects = [
@@ -70,6 +70,15 @@ export default function Projects() {
                         </div>
                     </div>
                 ))}
+            </div>
+
+            {/* Banner Próximamente */}
+            <div className="mt-12 p-10 bg-slate-800/30 rounded-3xl border border-slate-700/40 backdrop-blur-sm text-center">
+                <Wrench size={36} className="mx-auto mb-4 text-amber-400/80" />
+                <h3 className="text-xl font-bold text-white mb-3 tracking-tight">Próximamente</h3>
+                <p className="text-slate-400 text-sm leading-relaxed max-w-md mx-auto">
+                    Estoy terminando de pulir y retocar mis últimos proyectos para que queden perfectos antes de incluirlos aquí. ¡Vuelve pronto para ver el resultado!
+                </p>
             </div>
 
             <div className="mt-16 text-center">
