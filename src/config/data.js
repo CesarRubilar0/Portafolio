@@ -14,11 +14,11 @@ export const skills = [
     },
     {
         category: "Bases de Datos",
-        items: ["PostgreSQL", "MySQL", "H2 Database", "Firebase"],
+        items: ["PostgreSQL", "MySQL", "H2 Database", "Supabase"],
     },
     {
         category: "Herramientas & Otros",
-        items: ["Git", "Docker", "Postman", "PyQt5"],
+        items: ["Git", "Docker", "Postman", "PyQt5", "Visual Studio Code", "Antigravity", "Android Studio"],
     },
 ];
 export const experience = [
