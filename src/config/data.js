@@ -79,6 +79,15 @@ export const projects = [
         stack: ["React 19", "Vite 7", "TailwindCSS 4", "React Query", "Node.js 18+", "Express.js", "Knex.js", "PostgreSQL", "JWT", "MercadoPago", "Google OAuth 2.0", "API de calendario"],
         link: "https://clingo.cl/",
         type: "Web"
+    },
+    {
+        id: 7,
+        title: "Downkiltro",
+        description: "Aplicación móvil para la descarga y gestión de videos y audios de redes sociales (TikTok sin marca de agua, Reels, X/Twitter). Diseñada con alto rendimiento y alineada a las políticas de Google Play Store.",
+        stack: ["React Native", "Expo", "TypeScript", "Mobile"],
+        github: "https://github.com/CesarRubilar0/Downkiltro",
+        link: "https://github.com/CesarRubilar0/Downkiltro",
+        type: "Mobile"
     }
 ];
 

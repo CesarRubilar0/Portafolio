@@ -45,6 +45,13 @@ export default function Projects() {
             stack: ["React", "Node.js", "Express", "PostgreSQL", "TailwindCSS"],
             link: "https://acceso360.cl/",
             type: "Full-stack"
+        },
+        {
+            title: "Downkiltro",
+            description: "Aplicación móvil para la descarga y gestión de videos y audios de redes sociales (TikTok sin marca de agua, Reels, X/Twitter). Diseñada con alto rendimiento y alineada a las políticas de Google Play Store.",
+            stack: ["React Native", "Expo", "TypeScript", "Mobile"],
+            link: "https://github.com/CesarRubilar0/Downkiltro",
+            type: "Mobile"
         }
     ];
 
