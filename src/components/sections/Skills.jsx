@@ -61,7 +61,7 @@ export default function Skills() {
                 <div>
                     <h4 className="text-white text-sm font-semibold tracking-tight">Desarrollo Acelerado con IA</h4>
                     <p className="text-slate-300 text-sm leading-relaxed mt-0.5">
-                        Desarrollo asistido por IA (Claude / Copilot) para refactorización, optimización y testing riguroso.
+                        Desarrollo asistido por IA (Claude / Gemini & Antigravity / Copilot) para refactorización, optimización y testing riguroso.
                     </p>
                 </div>
             </motion.div>

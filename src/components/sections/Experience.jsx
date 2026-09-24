@@ -56,10 +56,13 @@ export default function Experience() {
                             transition={{ delay: i * 0.1 }}
                             className="relative pl-8"
                         >
-                            <div className="absolute w-3 h-3 bg-slate-700 rounded-full -left-[6.5px] top-1.5" />
-                            <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">{item.period}</span>
+                            <div className={`absolute w-3 h-3 rounded-full -left-[6.5px] top-1.5 ${item.period.includes("Presente") ? "bg-sky-500 shadow-[0_0_10px_rgba(56,189,248,0.5)]" : "bg-slate-700"}`} />
+                            <span className={`text-xs font-mono uppercase tracking-wider ${item.period.includes("Presente") ? "text-sky-400" : "text-slate-500"}`}>{item.period}</span>
                             <h3 className="text-lg font-bold text-slate-200 mt-1">{item.degree}</h3>
-                            <p className="text-sm text-sky-400/80">{item.institution}</p>
+                            <p className="text-sm text-sky-400/80 mb-2">{item.institution}</p>
+                            {item.description && (
+                                <p className="text-sm text-slate-400 leading-relaxed italic mb-2">"{item.description}"</p>
+                            )}
                         </motion.div>
                     ))}
                 </div>

@@ -45,9 +45,12 @@ export const skills = [
             "Vercel",
             "Linux / Bash",
             "Postman",
+            "Gemini (Google) / Antigravity IDE",
             "Claude (Anthropic)",
             "GitHub Copilot",
-            "Visual Studio Code"
+            "Visual Studio Code",
+            "Power BI",
+            "Herramientas Ofimáticas (Excel intermedio, Word)"
         ],
     },
 ];
@@ -56,7 +59,7 @@ export const experience = [
     {
         company: "Labotech",
         role: "Junior Full Stack Developer / Analista Programador",
-        period: "2026 — Actualidad",
+        period: "2026 — Julio 2026",
         description: "Desarrollo Full Stack e integración de servicios web. Implementación de control de accesos, autenticación OTP/QR, refactorización de código bajo estándares SOLID/DRY, consumo de APIs y optimización de bases de datos relacionales en PostgreSQL.",
         achievements: ["Resolución de 430+ advertencias ESLint", "Implementación de sistema OTP y QR temporal"]
     },
@@ -144,12 +147,20 @@ export const projects = [
 export const education = [
     {
         institution: "IP San Sebastián (Santiago)",
-        degree: "Ingeniería en Informática — En curso / Continuidad de estudios",
-        period: "2024 — Presente"
+        degree: "Ingeniería en Informática — En curso (3er Año) / Continuidad de estudios",
+        period: "2024 — Presente",
+        description: "Actualmente cursando 3er año. Formación enfocada en ingeniería de software, arquitectura de soluciones Cloud, redes y telecomunicaciones, datos y tendencias, gestión de procesos de negocio y marcos de servicios TI (ITIL)."
     },
     {
         institution: "IP San Sebastián",
         degree: "Técnico en Programación y Análisis de Sistemas — Titulado",
-        period: "2024 — 2026"
+        period: "2024 — 2026",
+        description: "Formación técnica orientada al ciclo de vida del software: Programación Orientada a Objetos (POO), diseño y programación de bases de datos relacionales, desarrollo web Full Stack (Frontend y Backend), testing de software, fundamentos Cloud y aplicaciones móviles."
+    },
+    {
+        institution: "Instituto Profesional AIEP (Santiago, Chile)",
+        degree: "Técnico en Prevención de Riesgos — Titulado",
+        period: "2015",
+        description: "Diseño, implementación y control de medidas preventivas orientadas a garantizar la seguridad de los trabajadores y la continuidad logística de los proyectos. Supervisión y coordinación de equipos en terreno en obras civiles menores, remodelaciones críticas y habilitación de espacios retail."
     }
 ];
