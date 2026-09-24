@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 export default function Experience() {
     return (
-        <section id="experience" className="py-24 grid md:grid-cols-2 gap-16">
+        <section id="experience" className="py-24 scroll-mt-20 grid md:grid-cols-2 gap-16">
 
             {/* Columna de Experiencia */}
             <div>
@@ -25,7 +25,16 @@ export default function Experience() {
                             <span className="text-xs font-mono text-sky-400 uppercase tracking-wider">{item.period}</span>
                             <h3 className="text-lg font-bold text-slate-200 mt-1">{item.role}</h3>
                             <p className="text-sm text-slate-500 mb-3">{item.company}</p>
-                            <p className="text-sm text-slate-400 leading-relaxed italic">"{item.description}"</p>
+                            <p className="text-sm text-slate-400 leading-relaxed italic mb-3">"{item.description}"</p>
+                            {item.achievements && (
+                                <div className="flex flex-wrap gap-2 pt-1">
+                                    {item.achievements.map((ach, idx) => (
+                                        <span key={idx} className="text-[10px] font-mono bg-sky-500/10 text-sky-300 border border-sky-500/20 px-2.5 py-1 rounded-md">
+                                            ✓ {ach}
+                                        </span>
+                                    ))}
+                                </div>
+                            )}
                         </motion.div>
                     ))}
                 </div>

@@ -10,6 +10,7 @@ import Skills from "./components/sections/Skills";
   ahorrando datos y mejorando el tiempo de carga inicial del portafolio esto 
   se hace para que el portafolio cargue mas rapido .*/}
 
+const About = lazy(() => import('./components/sections/about'));
 const Projects = lazy(() => import('./components/sections/Projects'));
 const Experience = lazy(() => import('./components/sections/Experience'));
 
@@ -29,6 +30,7 @@ function App() {
         <Suspense fallback={
           <div className="h-40 w-full bg-slate-800/50 animate-pulse rounded-xl my-10" />
         }>
+          <About />
           <Projects />
           <Skills />
           <Experience />

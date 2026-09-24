@@ -8,7 +8,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-slate-300 text-xl md:text-2xl font-mono mb-10">
-                <span className="text-sky-400">&gt;</span> Analista Programador en proceso...
+                <span className="text-sky-400">&gt;</span> Analista Programador | Desarrollador Full Stack
             </p>
 
             <div className="p-8 bg-slate-800/40 rounded-3xl border border-sky-500/20 shadow-2xl shadow-sky-500/5 backdrop-blur-sm max-w-lg mb-8">

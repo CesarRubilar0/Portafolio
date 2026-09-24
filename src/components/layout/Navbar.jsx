@@ -14,8 +14,10 @@ export default function Navbar() {
 
     const navLinks = [
         { label: "Inicio", href: "#" },
-        { label: "Proyectos", href: "#projects" },
         { label: "Sobre mí", href: "#about" },
+        { label: "Proyectos", href: "#projects" },
+        { label: "Habilidades", href: "#skills" },
+        { label: "Experiencia", href: "#experience" },
     ];
 
     return (

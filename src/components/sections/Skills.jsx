@@ -1,4 +1,4 @@
-import { Terminal, Database, Layout, Settings, ShieldCheck } from "lucide-react";
+import { Terminal, Database, Settings, ShieldCheck, Sparkles } from "lucide-react";
 import { skills } from "../../config/data"; // Importamos tus datos de la carpeta config
 import { motion } from "framer-motion";
 
@@ -7,11 +7,12 @@ export default function Skills() {
     const iconMap = {
         "Lenguajes & Frameworks": <Terminal className="text-sky-400" size={24} />,
         "Bases de Datos": <Database className="text-sky-400" size={24} />,
+        "Herramientas, Cloud & IA": <Sparkles className="text-sky-400" size={24} />,
         "Herramientas & Otros": <Settings className="text-sky-400" size={24} />
     };
 
     return (
-        <section id="skills" className="py-24">
+        <section id="skills" className="py-24 scroll-mt-20">
             {/* Título */}
             <div className="flex items-center gap-4 mb-12">
                 <h2 className="text-3xl font-bold text-white tracking-tight">Habilidades Técnicas</h2>
@@ -47,14 +48,33 @@ export default function Skills() {
                 ))}
             </div>
 
-            {/* Frase texto */}
+            {/* Mención destacada de IA */}
+            <motion.div
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="mt-12 p-6 border-l-4 border-sky-400 bg-sky-500/10 rounded-r-2xl backdrop-blur-sm shadow-lg shadow-sky-500/5 flex items-start sm:items-center gap-4"
+            >
+                <div className="p-2.5 rounded-xl bg-sky-500/20 text-sky-400 shrink-0">
+                    <Sparkles size={22} />
+                </div>
+                <div>
+                    <h4 className="text-white text-sm font-semibold tracking-tight">Desarrollo Acelerado con IA</h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mt-0.5">
+                        Desarrollo asistido por IA (Claude / Copilot) para refactorización, optimización y testing riguroso.
+                    </p>
+                </div>
+            </motion.div>
+
+            {/* Frase Enfoque de Seguridad */}
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                className="mt-12 p-6 border-l-2 border-sky-500/30 bg-sky-500/5 rounded-r-xl"
+                viewport={{ once: true }}
+                className="mt-4 p-5 border-l-2 border-slate-700 bg-slate-800/20 rounded-r-xl"
             >
-                <p className="text-slate-400 text-sm italic leading-relaxed">
-                    <ShieldCheck size={16} className="inline mr-2 text-sky-400" />
+                <p className="text-slate-400 text-xs italic leading-relaxed flex items-center">
+                    <ShieldCheck size={16} className="inline mr-2 text-sky-400 shrink-0" />
                     Enfoque en seguridad de datos y buenas prácticas de codificación, integrando mi experiencia previa en análisis de riesgos.
                 </p>
             </motion.div>
