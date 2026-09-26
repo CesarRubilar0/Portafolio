@@ -99,12 +99,12 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Tiendalacuerda",
-        description: "Tienda virtual moderna y responsiva con catálogo de productos, carrito de compras reactivo y arquitectura modular.",
-        stack: ["Vue 3", "Vite", "TailwindCSS", "JavaScript"],
-        github: "https://github.com/CesarRubilar0/tiendalacuerda",
-        link: "https://github.com/CesarRubilar0/tiendalacuerda",
-        type: "Web / Frontend"
+        title: "pr.ceramik",
+        description: "Landing page y portafolio visual para un estudio de cerámica surrealista. Presenta piezas destacadas, una galería y datos de contacto, con una experiencia enfocada en el diseño y la identidad de marca.",
+        stack: ["React", "Vite", "JavaScript", "HTML", "CSS", "Vercel", "Git"],
+        github: "https://github.com/CesarRubilar0/pr-ceramik-app",
+        link: "https://pr-ceramik-app.vercel.app/",
+        type: "Web / Portafolio"
     },
     {
         id: 5,
